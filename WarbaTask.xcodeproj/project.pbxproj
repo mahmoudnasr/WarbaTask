@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		248F7B36245ABCF9D17B44F1 /* Pods_WarbaTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF18962D25B4E0F984AD480 /* Pods_WarbaTaskUITests.framework */; };
+		6E2B6803A26B781782D512E2 /* Pods_WarbaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F72F04BF9CCCDE38B0E0158 /* Pods_WarbaTask.framework */; };
+		7036B7B4224BAAE80059D364 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7036B7B3224BAAE80059D364 /* Images.swift */; };
 		7065DC68224AA8650033D176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DC67224AA8650033D176 /* AppDelegate.swift */; };
 		7065DC6A224AA8650033D176 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DC69224AA8650033D176 /* MasterViewController.swift */; };
 		7065DC6C224AA8650033D176 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DC6B224AA8650033D176 /* DetailViewController.swift */; };
@@ -15,6 +18,33 @@
 		7065DC74224AA8680033D176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7065DC72224AA8680033D176 /* LaunchScreen.storyboard */; };
 		7065DC7F224AA8680033D176 /* WarbaTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DC7E224AA8680033D176 /* WarbaTaskTests.swift */; };
 		7065DC8A224AA8680033D176 /* WarbaTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DC89224AA8680033D176 /* WarbaTaskUITests.swift */; };
+		7065DCA0224B48CE0033D176 /* CZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DC9B224B48CE0033D176 /* CZMainViewController.swift */; };
+		7065DCA1224B48CE0033D176 /* CZListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DC9C224B48CE0033D176 /* CZListViewController.swift */; };
+		7065DCA2224B48CE0033D176 /* CZMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DC9D224B48CE0033D176 /* CZMainTableViewController.swift */; };
+		7065DCA3224B48CE0033D176 /* CZMainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DC9E224B48CE0033D176 /* CZMainCollectionViewController.swift */; };
+		7065DCAF224B49420033D176 /* StaticValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCA8224B49420033D176 /* StaticValues.swift */; };
+		7065DCB1224B49420033D176 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCAA224B49420033D176 /* BaseService.swift */; };
+		7065DCB2224B49420033D176 /* HandleServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCAB224B49420033D176 /* HandleServiceProtocol.swift */; };
+		7065DCB3224B49420033D176 /* ConstantUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCAC224B49420033D176 /* ConstantUrl.swift */; };
+		7065DCB4224B49420033D176 /* NotificationsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCAD224B49420033D176 /* NotificationsKey.swift */; };
+		7065DCB5224B49420033D176 /* ConstantKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCAE224B49420033D176 /* ConstantKey.swift */; };
+		7065DCBD224B49990033D176 /* ApiCallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCB8224B49990033D176 /* ApiCallModel.swift */; };
+		7065DCBE224B49990033D176 /* HandleModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCBB224B49990033D176 /* HandleModelProtocol.swift */; };
+		7065DCBF224B49990033D176 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCBC224B49990033D176 /* BaseModel.swift */; };
+		7065DCC5224B549C0033D176 /* CZTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCC1224B549B0033D176 /* CZTableViewDataSource.swift */; };
+		7065DCC6224B549C0033D176 /* CZCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCC2224B549B0033D176 /* CZCollectionViewDataSource.swift */; };
+		7065DCC7224B549C0033D176 /* CZBaseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCC3224B549B0033D176 /* CZBaseDataSource.swift */; };
+		7065DCCA224B609B0033D176 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCC9224B609B0033D176 /* MainViewController.swift */; };
+		7065DCCD224B72330033D176 /* AtricletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCCC224B72330033D176 /* AtricletCell.swift */; };
+		7065DCD0224B73E70033D176 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCCF224B73E70033D176 /* Response.swift */; };
+		7065DCD3224B7AB80033D176 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065DCD2224B7AB80033D176 /* Services.swift */; };
+		70777029224C005B00A4A59C /* TestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70777028224C005B00A4A59C /* TestApi.swift */; };
+		7077702B224C046700A4A59C /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077702A224C046700A4A59C /* TestUI.swift */; };
+		70777035224C9AC300A4A59C /* NewsDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7077702F224C9AC300A4A59C /* NewsDataSourceTests.swift */; };
+		7077703A224CD18100A4A59C /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70777038224CD18000A4A59C /* SnapshotHelper.swift */; };
+		7077703B224CD18100A4A59C /* WarbaTaskAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70777039224CD18100A4A59C /* WarbaTaskAppUITests.swift */; };
+		7077703D224CD30200A4A59C /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 7077703C224CD30200A4A59C /* Readme.md */; };
+		A6020E1FF9F174046559DAFE /* Pods_WarbaTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208192D1D4494D1AB5CD85D6 /* Pods_WarbaTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029CCBBA0FEA66096304FEB0 /* Pods-WarbaTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarbaTaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarbaTaskUITests/Pods-WarbaTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F72F04BF9CCCDE38B0E0158 /* Pods_WarbaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarbaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		208192D1D4494D1AB5CD85D6 /* Pods_WarbaTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarbaTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9EF55391D65D49E21CD845 /* Pods-WarbaTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarbaTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarbaTask/Pods-WarbaTask.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF18962D25B4E0F984AD480 /* Pods_WarbaTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarbaTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A59F503D9DEE258B58F68A /* Pods-WarbaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarbaTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarbaTask/Pods-WarbaTask.release.xcconfig"; sourceTree = "<group>"; };
+		5D464B924CBFD9F1EA014CA3 /* Pods-WarbaTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarbaTaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarbaTaskUITests/Pods-WarbaTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7036B7B3224BAAE80059D364 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		7065DC64224AA8650033D176 /* WarbaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarbaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7065DC67224AA8650033D176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7065DC69224AA8650033D176 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +87,34 @@
 		7065DC85224AA8680033D176 /* WarbaTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarbaTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7065DC89224AA8680033D176 /* WarbaTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarbaTaskUITests.swift; sourceTree = "<group>"; };
 		7065DC8B224AA8680033D176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7065DC9B224B48CE0033D176 /* CZMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZMainViewController.swift; sourceTree = "<group>"; };
+		7065DC9C224B48CE0033D176 /* CZListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZListViewController.swift; sourceTree = "<group>"; };
+		7065DC9D224B48CE0033D176 /* CZMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZMainTableViewController.swift; sourceTree = "<group>"; };
+		7065DC9E224B48CE0033D176 /* CZMainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZMainCollectionViewController.swift; sourceTree = "<group>"; };
+		7065DCA8224B49420033D176 /* StaticValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticValues.swift; sourceTree = "<group>"; };
+		7065DCAA224B49420033D176 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		7065DCAB224B49420033D176 /* HandleServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleServiceProtocol.swift; sourceTree = "<group>"; };
+		7065DCAC224B49420033D176 /* ConstantUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantUrl.swift; sourceTree = "<group>"; };
+		7065DCAD224B49420033D176 /* NotificationsKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsKey.swift; sourceTree = "<group>"; };
+		7065DCAE224B49420033D176 /* ConstantKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantKey.swift; sourceTree = "<group>"; };
+		7065DCB8224B49990033D176 /* ApiCallModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCallModel.swift; sourceTree = "<group>"; };
+		7065DCBB224B49990033D176 /* HandleModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleModelProtocol.swift; sourceTree = "<group>"; };
+		7065DCBC224B49990033D176 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		7065DCC1224B549B0033D176 /* CZTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZTableViewDataSource.swift; sourceTree = "<group>"; };
+		7065DCC2224B549B0033D176 /* CZCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		7065DCC3224B549B0033D176 /* CZBaseDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZBaseDataSource.swift; sourceTree = "<group>"; };
+		7065DCC9224B609B0033D176 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7065DCCC224B72330033D176 /* AtricletCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtricletCell.swift; sourceTree = "<group>"; };
+		7065DCCF224B73E70033D176 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		7065DCD2224B7AB80033D176 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		70777028224C005B00A4A59C /* TestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApi.swift; sourceTree = "<group>"; };
+		7077702A224C046700A4A59C /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
+		7077702F224C9AC300A4A59C /* NewsDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDataSourceTests.swift; sourceTree = "<group>"; };
+		70777038224CD18000A4A59C /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		70777039224CD18100A4A59C /* WarbaTaskAppUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarbaTaskAppUITests.swift; sourceTree = "<group>"; };
+		7077703C224CD30200A4A59C /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		B237B52EE4EC3AA595506B5D /* Pods-WarbaTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarbaTaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarbaTaskTests/Pods-WarbaTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F68C508A51357DDDA6C92CB2 /* Pods-WarbaTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarbaTaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarbaTaskTests/Pods-WarbaTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2B6803A26B781782D512E2 /* Pods_WarbaTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6020E1FF9F174046559DAFE /* Pods_WarbaTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +138,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248F7B36245ABCF9D17B44F1 /* Pods_WarbaTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		644F3A9EE8B5C5115A7E0300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F72F04BF9CCCDE38B0E0158 /* Pods_WarbaTask.framework */,
+				208192D1D4494D1AB5CD85D6 /* Pods_WarbaTaskTests.framework */,
+				4DF18962D25B4E0F984AD480 /* Pods_WarbaTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7036B7B2224BAAD80059D364 /* uiextentions */ = {
+			isa = PBXGroup;
+			children = (
+				7036B7B3224BAAE80059D364 /* Images.swift */,
+			);
+			path = uiextentions;
+			sourceTree = "<group>";
+		};
 		7065DC5B224AA8650033D176 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +170,8 @@
 				7065DC7D224AA8680033D176 /* WarbaTaskTests */,
 				7065DC88224AA8680033D176 /* WarbaTaskUITests */,
 				7065DC65224AA8650033D176 /* Products */,
+				F34DDB53ABEA4DC03B26E02F /* Pods */,
+				644F3A9EE8B5C5115A7E0300 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +188,14 @@
 		7065DC66224AA8650033D176 /* WarbaTask */ = {
 			isa = PBXGroup;
 			children = (
+				7065DC97224B46EF0033D176 /* MVC */,
 				7065DC67224AA8650033D176 /* AppDelegate.swift */,
 				7065DC69224AA8650033D176 /* MasterViewController.swift */,
-				7065DC6B224AA8650033D176 /* DetailViewController.swift */,
 				7065DC6D224AA8650033D176 /* Main.storyboard */,
 				7065DC70224AA8680033D176 /* Assets.xcassets */,
 				7065DC72224AA8680033D176 /* LaunchScreen.storyboard */,
 				7065DC75224AA8680033D176 /* Info.plist */,
+				7077703C224CD30200A4A59C /* Readme.md */,
 			);
 			path = WarbaTask;
 			sourceTree = "<group>";
@@ -113,8 +203,10 @@
 		7065DC7D224AA8680033D176 /* WarbaTaskTests */ = {
 			isa = PBXGroup;
 			children = (
+				7077702F224C9AC300A4A59C /* NewsDataSourceTests.swift */,
 				7065DC7E224AA8680033D176 /* WarbaTaskTests.swift */,
 				7065DC80224AA8680033D176 /* Info.plist */,
+				70777028224C005B00A4A59C /* TestApi.swift */,
 			);
 			path = WarbaTaskTests;
 			sourceTree = "<group>";
@@ -122,10 +214,167 @@
 		7065DC88224AA8680033D176 /* WarbaTaskUITests */ = {
 			isa = PBXGroup;
 			children = (
+				70777039224CD18100A4A59C /* WarbaTaskAppUITests.swift */,
+				70777038224CD18000A4A59C /* SnapshotHelper.swift */,
 				7065DC89224AA8680033D176 /* WarbaTaskUITests.swift */,
 				7065DC8B224AA8680033D176 /* Info.plist */,
+				7077702A224C046700A4A59C /* TestUI.swift */,
 			);
 			path = WarbaTaskUITests;
+			sourceTree = "<group>";
+		};
+		7065DC97224B46EF0033D176 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCCB224B720F0033D176 /* View */,
+				7065DCA4224B48E90033D176 /* Model */,
+				7065DC98224B47FE0033D176 /* Controllers */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		7065DC98224B47FE0033D176 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7065DC99224B48080033D176 /* BaseControllers */,
+				7065DC6B224AA8650033D176 /* DetailViewController.swift */,
+				7065DCC9224B609B0033D176 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7065DC99224B48080033D176 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7065DC9C224B48CE0033D176 /* CZListViewController.swift */,
+				7065DC9E224B48CE0033D176 /* CZMainCollectionViewController.swift */,
+				7065DC9D224B48CE0033D176 /* CZMainTableViewController.swift */,
+				7065DC9B224B48CE0033D176 /* CZMainViewController.swift */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		7065DCA4224B48E90033D176 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCCE224B73DA0033D176 /* item */,
+				7065DCA6224B48FB0033D176 /* ServiceLayer */,
+				7065DCA5224B48F20033D176 /* Model Layer */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7065DCA5224B48F20033D176 /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCB6224B49990033D176 /* Model */,
+			);
+			path = "Model Layer";
+			sourceTree = "<group>";
+		};
+		7065DCA6224B48FB0033D176 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCD1224B7A9B0033D176 /* getAllArticleServices */,
+				7065DCA7224B49420033D176 /* BaseService */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		7065DCA7224B49420033D176 /* BaseService */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCA8224B49420033D176 /* StaticValues.swift */,
+				7065DCAA224B49420033D176 /* BaseService.swift */,
+				7065DCAB224B49420033D176 /* HandleServiceProtocol.swift */,
+				7065DCAC224B49420033D176 /* ConstantUrl.swift */,
+				7065DCAD224B49420033D176 /* NotificationsKey.swift */,
+				7065DCAE224B49420033D176 /* ConstantKey.swift */,
+			);
+			path = BaseService;
+			sourceTree = "<group>";
+		};
+		7065DCB6224B49990033D176 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCC0224B549B0033D176 /* Parnet Models */,
+				7065DCB7224B49990033D176 /* SearchForDoctorVisit */,
+				7065DCB9224B49990033D176 /* SettingModel */,
+				7065DCBA224B49990033D176 /* BaseModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7065DCB7224B49990033D176 /* SearchForDoctorVisit */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCB8224B49990033D176 /* ApiCallModel.swift */,
+			);
+			path = SearchForDoctorVisit;
+			sourceTree = "<group>";
+		};
+		7065DCB9224B49990033D176 /* SettingModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SettingModel;
+			sourceTree = "<group>";
+		};
+		7065DCBA224B49990033D176 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCBB224B49990033D176 /* HandleModelProtocol.swift */,
+				7065DCBC224B49990033D176 /* BaseModel.swift */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		7065DCC0224B549B0033D176 /* Parnet Models */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCC1224B549B0033D176 /* CZTableViewDataSource.swift */,
+				7065DCC2224B549B0033D176 /* CZCollectionViewDataSource.swift */,
+				7065DCC3224B549B0033D176 /* CZBaseDataSource.swift */,
+			);
+			path = "Parnet Models";
+			sourceTree = "<group>";
+		};
+		7065DCCB224B720F0033D176 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7036B7B2224BAAD80059D364 /* uiextentions */,
+				7065DCCC224B72330033D176 /* AtricletCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7065DCCE224B73DA0033D176 /* item */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCCF224B73E70033D176 /* Response.swift */,
+			);
+			path = item;
+			sourceTree = "<group>";
+		};
+		7065DCD1224B7A9B0033D176 /* getAllArticleServices */ = {
+			isa = PBXGroup;
+			children = (
+				7065DCD2224B7AB80033D176 /* Services.swift */,
+			);
+			path = getAllArticleServices;
+			sourceTree = "<group>";
+		};
+		F34DDB53ABEA4DC03B26E02F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B9EF55391D65D49E21CD845 /* Pods-WarbaTask.debug.xcconfig */,
+				56A59F503D9DEE258B58F68A /* Pods-WarbaTask.release.xcconfig */,
+				B237B52EE4EC3AA595506B5D /* Pods-WarbaTaskTests.debug.xcconfig */,
+				F68C508A51357DDDA6C92CB2 /* Pods-WarbaTaskTests.release.xcconfig */,
+				029CCBBA0FEA66096304FEB0 /* Pods-WarbaTaskUITests.debug.xcconfig */,
+				5D464B924CBFD9F1EA014CA3 /* Pods-WarbaTaskUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +384,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7065DC8E224AA8680033D176 /* Build configuration list for PBXNativeTarget "WarbaTask" */;
 			buildPhases = (
+				5BE707AF24D70A8C51E8B3E6 /* [CP] Check Pods Manifest.lock */,
 				7065DC60224AA8650033D176 /* Sources */,
 				7065DC61224AA8650033D176 /* Frameworks */,
 				7065DC62224AA8650033D176 /* Resources */,
+				E4C79EEC2CADC21FBD0C04CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +403,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7065DC91224AA8680033D176 /* Build configuration list for PBXNativeTarget "WarbaTaskTests" */;
 			buildPhases = (
+				02E6AA05154A3F0D2B7C80B5 /* [CP] Check Pods Manifest.lock */,
 				7065DC76224AA8680033D176 /* Sources */,
 				7065DC77224AA8680033D176 /* Frameworks */,
 				7065DC78224AA8680033D176 /* Resources */,
@@ -170,6 +422,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7065DC94224AA8680033D176 /* Build configuration list for PBXNativeTarget "WarbaTaskUITests" */;
 			buildPhases = (
+				63635C809CC80E6714CB47FA /* [CP] Check Pods Manifest.lock */,
 				7065DC81224AA8680033D176 /* Sources */,
 				7065DC82224AA8680033D176 /* Frameworks */,
 				7065DC83224AA8680033D176 /* Resources */,
@@ -234,6 +487,7 @@
 			files = (
 				7065DC74224AA8680033D176 /* LaunchScreen.storyboard in Resources */,
 				7065DC71224AA8680033D176 /* Assets.xcassets in Resources */,
+				7077703D224CD30200A4A59C /* Readme.md in Resources */,
 				7065DC6F224AA8650033D176 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +508,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02E6AA05154A3F0D2B7C80B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WarbaTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE707AF24D70A8C51E8B3E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WarbaTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63635C809CC80E6714CB47FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WarbaTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C79EEC2CADC21FBD0C04CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WarbaTask/Pods-WarbaTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarbaTask/Pods-WarbaTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7065DC60224AA8650033D176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7065DCB3224B49420033D176 /* ConstantUrl.swift in Sources */,
+				7065DCB2224B49420033D176 /* HandleServiceProtocol.swift in Sources */,
+				7065DCA0224B48CE0033D176 /* CZMainViewController.swift in Sources */,
+				7065DCBE224B49990033D176 /* HandleModelProtocol.swift in Sources */,
+				7065DCB4224B49420033D176 /* NotificationsKey.swift in Sources */,
+				7065DCA1224B48CE0033D176 /* CZListViewController.swift in Sources */,
 				7065DC6C224AA8650033D176 /* DetailViewController.swift in Sources */,
+				7065DCC5224B549C0033D176 /* CZTableViewDataSource.swift in Sources */,
+				7065DCBD224B49990033D176 /* ApiCallModel.swift in Sources */,
+				7065DCA3224B48CE0033D176 /* CZMainCollectionViewController.swift in Sources */,
+				7065DCCA224B609B0033D176 /* MainViewController.swift in Sources */,
+				7065DCC7224B549C0033D176 /* CZBaseDataSource.swift in Sources */,
 				7065DC6A224AA8650033D176 /* MasterViewController.swift in Sources */,
+				7036B7B4224BAAE80059D364 /* Images.swift in Sources */,
+				7065DCBF224B49990033D176 /* BaseModel.swift in Sources */,
+				7065DCCD224B72330033D176 /* AtricletCell.swift in Sources */,
+				7065DCAF224B49420033D176 /* StaticValues.swift in Sources */,
+				7065DCA2224B48CE0033D176 /* CZMainTableViewController.swift in Sources */,
 				7065DC68224AA8650033D176 /* AppDelegate.swift in Sources */,
+				7065DCD0224B73E70033D176 /* Response.swift in Sources */,
+				7065DCB1224B49420033D176 /* BaseService.swift in Sources */,
+				7065DCC6224B549C0033D176 /* CZCollectionViewDataSource.swift in Sources */,
+				7065DCD3224B7AB80033D176 /* Services.swift in Sources */,
+				7065DCB5224B49420033D176 /* ConstantKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +635,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70777029224C005B00A4A59C /* TestApi.swift in Sources */,
+				70777035224C9AC300A4A59C /* NewsDataSourceTests.swift in Sources */,
 				7065DC7F224AA8680033D176 /* WarbaTaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +646,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7065DC8A224AA8680033D176 /* WarbaTaskUITests.swift in Sources */,
+				7077702B224C046700A4A59C /* TestUI.swift in Sources */,
+				7077703B224CD18100A4A59C /* WarbaTaskAppUITests.swift in Sources */,
+				7077703A224CD18100A4A59C /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +805,7 @@
 		};
 		7065DC8F224AA8680033D176 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9EF55391D65D49E21CD845 /* Pods-WarbaTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +823,7 @@
 		};
 		7065DC90224AA8680033D176 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A59F503D9DEE258B58F68A /* Pods-WarbaTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +841,7 @@
 		};
 		7065DC92224AA8680033D176 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B237B52EE4EC3AA595506B5D /* Pods-WarbaTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +862,7 @@
 		};
 		7065DC93224AA8680033D176 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68C508A51357DDDA6C92CB2 /* Pods-WarbaTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +883,7 @@
 		};
 		7065DC95224AA8680033D176 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029CCBBA0FEA66096304FEB0 /* Pods-WarbaTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +903,7 @@
 		};
 		7065DC96224AA8680033D176 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D464B924CBFD9F1EA014CA3 /* Pods-WarbaTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
